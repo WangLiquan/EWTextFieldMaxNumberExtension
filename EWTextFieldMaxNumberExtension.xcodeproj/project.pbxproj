@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		798C14242186D4AD009F0488 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C14232186D4AD009F0488 /* AppDelegate.swift */; };
+		798C14262186D4AD009F0488 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C14252186D4AD009F0488 /* ViewController.swift */; };
+		798C14292186D4AD009F0488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798C14272186D4AD009F0488 /* Main.storyboard */; };
+		798C142B2186D4B8009F0488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798C142A2186D4B8009F0488 /* Assets.xcassets */; };
+		798C142E2186D4B8009F0488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798C142C2186D4B8009F0488 /* LaunchScreen.storyboard */; };
+		798C14392186D4B8009F0488 /* EWTextFieldMaxNumberExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C14382186D4B8009F0488 /* EWTextFieldMaxNumberExtensionTests.swift */; };
+		798C14442186D4B8009F0488 /* EWTextFieldMaxNumberExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C14432186D4B8009F0488 /* EWTextFieldMaxNumberExtensionUITests.swift */; };
+		798C14522186D51E009F0488 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C14512186D51E009F0488 /* UITextField+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		798C14352186D4B8009F0488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 798C14182186D4AD009F0488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 798C141F2186D4AD009F0488;
+			remoteInfo = EWTextFieldMaxNumberExtension;
+		};
+		798C14402186D4B8009F0488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 798C14182186D4AD009F0488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 798C141F2186D4AD009F0488;
+			remoteInfo = EWTextFieldMaxNumberExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		798C14202186D4AD009F0488 /* EWTextFieldMaxNumberExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EWTextFieldMaxNumberExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		798C14232186D4AD009F0488 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		798C14252186D4AD009F0488 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		798C14282186D4AD009F0488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		798C142A2186D4B8009F0488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		798C142D2186D4B8009F0488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		798C142F2186D4B8009F0488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798C14342186D4B8009F0488 /* EWTextFieldMaxNumberExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWTextFieldMaxNumberExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		798C14382186D4B8009F0488 /* EWTextFieldMaxNumberExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWTextFieldMaxNumberExtensionTests.swift; sourceTree = "<group>"; };
+		798C143A2186D4B8009F0488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798C143F2186D4B8009F0488 /* EWTextFieldMaxNumberExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWTextFieldMaxNumberExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		798C14432186D4B8009F0488 /* EWTextFieldMaxNumberExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWTextFieldMaxNumberExtensionUITests.swift; sourceTree = "<group>"; };
+		798C14452186D4B9009F0488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798C14512186D51E009F0488 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		798C141D2186D4AD009F0488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798C14312186D4B8009F0488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798C143C2186D4B8009F0488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		798C14172186D4AC009F0488 = {
+			isa = PBXGroup;
+			children = (
+				798C14222186D4AD009F0488 /* EWTextFieldMaxNumberExtension */,
+				798C14372186D4B8009F0488 /* EWTextFieldMaxNumberExtensionTests */,
+				798C14422186D4B8009F0488 /* EWTextFieldMaxNumberExtensionUITests */,
+				798C14212186D4AD009F0488 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		798C14212186D4AD009F0488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				798C14202186D4AD009F0488 /* EWTextFieldMaxNumberExtension.app */,
+				798C14342186D4B8009F0488 /* EWTextFieldMaxNumberExtensionTests.xctest */,
+				798C143F2186D4B8009F0488 /* EWTextFieldMaxNumberExtensionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		798C14222186D4AD009F0488 /* EWTextFieldMaxNumberExtension */ = {
+			isa = PBXGroup;
+			children = (
+				798C14232186D4AD009F0488 /* AppDelegate.swift */,
+				798C14512186D51E009F0488 /* UITextField+Extension.swift */,
+				798C14252186D4AD009F0488 /* ViewController.swift */,
+				798C14272186D4AD009F0488 /* Main.storyboard */,
+				798C142A2186D4B8009F0488 /* Assets.xcassets */,
+				798C142C2186D4B8009F0488 /* LaunchScreen.storyboard */,
+				798C142F2186D4B8009F0488 /* Info.plist */,
+			);
+			path = EWTextFieldMaxNumberExtension;
+			sourceTree = "<group>";
+		};
+		798C14372186D4B8009F0488 /* EWTextFieldMaxNumberExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				798C14382186D4B8009F0488 /* EWTextFieldMaxNumberExtensionTests.swift */,
+				798C143A2186D4B8009F0488 /* Info.plist */,
+			);
+			path = EWTextFieldMaxNumberExtensionTests;
+			sourceTree = "<group>";
+		};
+		798C14422186D4B8009F0488 /* EWTextFieldMaxNumberExtensionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				798C14432186D4B8009F0488 /* EWTextFieldMaxNumberExtensionUITests.swift */,
+				798C14452186D4B9009F0488 /* Info.plist */,
+			);
+			path = EWTextFieldMaxNumberExtensionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		798C141F2186D4AD009F0488 /* EWTextFieldMaxNumberExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798C14482186D4B9009F0488 /* Build configuration list for PBXNativeTarget "EWTextFieldMaxNumberExtension" */;
+			buildPhases = (
+				798C141C2186D4AD009F0488 /* Sources */,
+				798C141D2186D4AD009F0488 /* Frameworks */,
+				798C141E2186D4AD009F0488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EWTextFieldMaxNumberExtension;
+			productName = EWTextFieldMaxNumberExtension;
+			productReference = 798C14202186D4AD009F0488 /* EWTextFieldMaxNumberExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		798C14332186D4B8009F0488 /* EWTextFieldMaxNumberExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798C144B2186D4B9009F0488 /* Build configuration list for PBXNativeTarget "EWTextFieldMaxNumberExtensionTests" */;
+			buildPhases = (
+				798C14302186D4B8009F0488 /* Sources */,
+				798C14312186D4B8009F0488 /* Frameworks */,
+				798C14322186D4B8009F0488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				798C14362186D4B8009F0488 /* PBXTargetDependency */,
+			);
+			name = EWTextFieldMaxNumberExtensionTests;
+			productName = EWTextFieldMaxNumberExtensionTests;
+			productReference = 798C14342186D4B8009F0488 /* EWTextFieldMaxNumberExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		798C143E2186D4B8009F0488 /* EWTextFieldMaxNumberExtensionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798C144E2186D4B9009F0488 /* Build configuration list for PBXNativeTarget "EWTextFieldMaxNumberExtensionUITests" */;
+			buildPhases = (
+				798C143B2186D4B8009F0488 /* Sources */,
+				798C143C2186D4B8009F0488 /* Frameworks */,
+				798C143D2186D4B8009F0488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				798C14412186D4B8009F0488 /* PBXTargetDependency */,
+			);
+			name = EWTextFieldMaxNumberExtensionUITests;
+			productName = EWTextFieldMaxNumberExtensionUITests;
+			productReference = 798C143F2186D4B8009F0488 /* EWTextFieldMaxNumberExtensionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		798C14182186D4AD009F0488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Ethan;
+				TargetAttributes = {
+					798C141F2186D4AD009F0488 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					798C14332186D4B8009F0488 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 798C141F2186D4AD009F0488;
+					};
+					798C143E2186D4B8009F0488 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 798C141F2186D4AD009F0488;
+					};
+				};
+			};
+			buildConfigurationList = 798C141B2186D4AD009F0488 /* Build configuration list for PBXProject "EWTextFieldMaxNumberExtension" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 798C14172186D4AC009F0488;
+			productRefGroup = 798C14212186D4AD009F0488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				798C141F2186D4AD009F0488 /* EWTextFieldMaxNumberExtension */,
+				798C14332186D4B8009F0488 /* EWTextFieldMaxNumberExtensionTests */,
+				798C143E2186D4B8009F0488 /* EWTextFieldMaxNumberExtensionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		798C141E2186D4AD009F0488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798C142E2186D4B8009F0488 /* LaunchScreen.storyboard in Resources */,
+				798C142B2186D4B8009F0488 /* Assets.xcassets in Resources */,
+				798C14292186D4AD009F0488 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798C14322186D4B8009F0488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798C143D2186D4B8009F0488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		798C141C2186D4AD009F0488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798C14522186D51E009F0488 /* UITextField+Extension.swift in Sources */,
+				798C14262186D4AD009F0488 /* ViewController.swift in Sources */,
+				798C14242186D4AD009F0488 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798C14302186D4B8009F0488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798C14392186D4B8009F0488 /* EWTextFieldMaxNumberExtensionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798C143B2186D4B8009F0488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798C14442186D4B8009F0488 /* EWTextFieldMaxNumberExtensionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		798C14362186D4B8009F0488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 798C141F2186D4AD009F0488 /* EWTextFieldMaxNumberExtension */;
+			targetProxy = 798C14352186D4B8009F0488 /* PBXContainerItemProxy */;
+		};
+		798C14412186D4B8009F0488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 798C141F2186D4AD009F0488 /* EWTextFieldMaxNumberExtension */;
+			targetProxy = 798C14402186D4B8009F0488 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		798C14272186D4AD009F0488 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798C14282186D4AD009F0488 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		798C142C2186D4B8009F0488 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798C142D2186D4B8009F0488 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		798C14462186D4B9009F0488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		798C14472186D4B9009F0488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		798C14492186D4B9009F0488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8V4DCL3BF;
+				INFOPLIST_FILE = EWTextFieldMaxNumberExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.EWTextFieldMaxNumberExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		798C144A2186D4B9009F0488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8V4DCL3BF;
+				INFOPLIST_FILE = EWTextFieldMaxNumberExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.EWTextFieldMaxNumberExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		798C144C2186D4B9009F0488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8V4DCL3BF;
+				INFOPLIST_FILE = EWTextFieldMaxNumberExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.EWTextFieldMaxNumberExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWTextFieldMaxNumberExtension.app/EWTextFieldMaxNumberExtension";
+			};
+			name = Debug;
+		};
+		798C144D2186D4B9009F0488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8V4DCL3BF;
+				INFOPLIST_FILE = EWTextFieldMaxNumberExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.EWTextFieldMaxNumberExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWTextFieldMaxNumberExtension.app/EWTextFieldMaxNumberExtension";
+			};
+			name = Release;
+		};
+		798C144F2186D4B9009F0488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8V4DCL3BF;
+				INFOPLIST_FILE = EWTextFieldMaxNumberExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.EWTextFieldMaxNumberExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EWTextFieldMaxNumberExtension;
+			};
+			name = Debug;
+		};
+		798C14502186D4B9009F0488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8V4DCL3BF;
+				INFOPLIST_FILE = EWTextFieldMaxNumberExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.EWTextFieldMaxNumberExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EWTextFieldMaxNumberExtension;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		798C141B2186D4AD009F0488 /* Build configuration list for PBXProject "EWTextFieldMaxNumberExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798C14462186D4B9009F0488 /* Debug */,
+				798C14472186D4B9009F0488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798C14482186D4B9009F0488 /* Build configuration list for PBXNativeTarget "EWTextFieldMaxNumberExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798C14492186D4B9009F0488 /* Debug */,
+				798C144A2186D4B9009F0488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798C144B2186D4B9009F0488 /* Build configuration list for PBXNativeTarget "EWTextFieldMaxNumberExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798C144C2186D4B9009F0488 /* Debug */,
+				798C144D2186D4B9009F0488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798C144E2186D4B9009F0488 /* Build configuration list for PBXNativeTarget "EWTextFieldMaxNumberExtensionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798C144F2186D4B9009F0488 /* Debug */,
+				798C14502186D4B9009F0488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 798C14182186D4AD009F0488 /* Project object */;
+}
