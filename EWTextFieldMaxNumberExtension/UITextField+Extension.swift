@@ -40,7 +40,7 @@ extension UITextField{
         }
     }
     /// 检测如果输入数高于设置最大输入数则截取
-    private  func checkTextFieldText(){
+    private func checkTextFieldText(){
         guard (self.text?.utf16.count)! <= maxTextNumber  else {
             guard let text = self.text else {
                 return
