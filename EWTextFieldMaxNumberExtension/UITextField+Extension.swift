@@ -45,8 +45,9 @@ extension UITextField{
             guard let text = self.text else {
                 return
             }
+            /// emoji的utf16.count是2，所以不能以maxTextNumber进行截取，改用text.count-1
             let sIndex = text.index(text
-                .startIndex, offsetBy: maxTextNumber)
+                .startIndex, offsetBy: text.count-1)
             self.text = String(text[..<sIndex])
             return
         }
