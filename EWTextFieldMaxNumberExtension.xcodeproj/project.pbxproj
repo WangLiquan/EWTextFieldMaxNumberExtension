@@ -197,13 +197,16 @@
 				TargetAttributes = {
 					798C141F2186D4AD009F0488 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 					798C14332186D4B8009F0488 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						TestTargetID = 798C141F2186D4AD009F0488;
 					};
 					798C143E2186D4B8009F0488 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						TestTargetID = 798C141F2186D4AD009F0488;
 					};
 				};
@@ -468,7 +471,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.EWTextFieldMaxNumberExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -488,7 +491,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.EWTextFieldMaxNumberExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -508,7 +511,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.EWTextFieldMaxNumberExtensionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWTextFieldMaxNumberExtension.app/EWTextFieldMaxNumberExtension";
 			};
@@ -529,7 +532,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.EWTextFieldMaxNumberExtensionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWTextFieldMaxNumberExtension.app/EWTextFieldMaxNumberExtension";
 			};
@@ -549,7 +552,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.EWTextFieldMaxNumberExtensionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = EWTextFieldMaxNumberExtension;
 			};
@@ -569,7 +572,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.EWTextFieldMaxNumberExtensionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = EWTextFieldMaxNumberExtension;
 			};
